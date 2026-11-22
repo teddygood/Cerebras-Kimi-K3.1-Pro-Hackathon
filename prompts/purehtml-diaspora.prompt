@@ -1,0 +1,1 @@
+Find 5 real Christmas gifts from Diaspora Co. using its live HTML gift page. Fetch https://www.diasporaco.com/collections/gifts (using maxChars=8000). Then pick 5 distinct physical gifts (no gift cards) and fetch all 5 individual product pages in parallel (using maxChars=1800). Output only a numbered list of the 5 product titles and direct product URLs.

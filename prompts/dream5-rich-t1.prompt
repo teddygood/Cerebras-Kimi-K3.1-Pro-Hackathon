@@ -1,0 +1,8 @@
+Step 1: Execute 5 parallel web_fetch calls with extractMode="text" and maxChars=6000:
+https://corkcicle.com/products.json?limit=1
+https://www.diasporaco.com/collections/gifts/products.json?limit=1
+https://fellowproducts.com/products.json?limit=1
+https://brightland.co/products.json?limit=1
+https://flybyjing.com/products.json?limit=1
+Step 2: Execute 5 parallel web_fetch calls with extractMode="text" and maxChars=1800 on those 5 individual product pages (/products/<handle>).
+Step 3: Reply immediately with 1 to 5: Store | Title | $Price — URL.

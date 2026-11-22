@@ -1,0 +1,9 @@
+.env
+.env.*
+*.log
+*.sqlite
+*.sqlite-*
+state/
+workspace/
+*.patch
+.DS_Store

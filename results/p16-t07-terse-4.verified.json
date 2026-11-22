@@ -1,0 +1,77 @@
+[
+  {
+    "url": "https://corkcicle.com/products/elf-coffee-mug",
+    "status": 200,
+    "final": "https://corkcicle.com/products/elf-coffee-mug",
+    "page_title": "Elf Coffee Mug | CORKCICLE.\nClose IconClose Icon",
+    "head": {
+      "canonical": "https://corkcicle.com/products/elf-coffee-mug",
+      "og:url": "https://corkcicle.com/products/elf-coffee-mug",
+      "og:title": "Elf Coffee Mug",
+      "og:type": "product"
+    },
+    "shopify_title": "Elf Coffee Mug",
+    "shopify_id": 15533578518616,
+    "available": true
+  },
+  {
+    "url": "https://www.diasporaco.com/products/the-ultimate-popcorn-kit",
+    "status": 200,
+    "final": "https://www.diasporaco.com/products/the-ultimate-popcorn-kit",
+    "page_title": "Buy Popcorn Kit | Complete Snack Seasoning Set | Diaspora Co\n – Diaspora Co. American ExpressApple PayDiners ClubDiscoverGoogle PayMastercardPayPalShop PayVenmoVisa",
+    "head": {
+      "og:url": "https://www.diasporaco.com/products/the-ultimate-popcorn-kit",
+      "og:title": "Buy Popcorn Kit | Complete Snack Seasoning Set | Diaspora Co",
+      "og:type": "product",
+      "canonical": "https://www.diasporaco.com/products/the-ultimate-popcorn-kit"
+    },
+    "shopify_title": "The Ultimate Popcorn Kit",
+    "shopify_id": 14795287757167,
+    "available": true
+  },
+  {
+    "url": "https://fellowproducts.com/products/decaf-holiday-blend",
+    "status": 200,
+    "final": "https://fellowproducts.com/products/decaf-holiday-blend",
+    "page_title": "Equator Decaf Holiday Blend",
+    "head": {
+      "canonical": "https://fellowproducts.com/products/decaf-holiday-blend",
+      "og:url": "https://fellowproducts.com/products/decaf-holiday-blend",
+      "og:title": "Equator Decaf Holiday Blend",
+      "og:type": "product"
+    },
+    "shopify_title": "Equator Decaf Holiday Blend",
+    "shopify_id": 15504067100772,
+    "available": true
+  },
+  {
+    "url": "https://brightland.co/products/the-holiday-hosting-set-2026",
+    "status": 200,
+    "final": "https://brightland.co/products/the-holiday-hosting-set-2026",
+    "page_title": "The Holiday Hosting Set",
+    "head": {
+      "canonical": "https://brightland.co/products/the-holiday-hosting-set-2026",
+      "og:type": "product",
+      "og:title": "The Holiday Hosting Set",
+      "og:url": "https://brightland.co/products/the-holiday-hosting-set-2026"
+    },
+    "shopify_title": "The Holiday Hosting Set",
+    "shopify_id": 8428901204031,
+    "available": true
+  },
+  {
+    "url": "https://flybyjing.com/products/triple-threat-gift-box",
+    "status": 200,
+    "final": "https://flybyjing.com/products/triple-threat-gift-box",
+    "page_title": "Triple Threat Gift Box | Fly By Jing\n\n        – FLY BY JINGAmazonAmerican ExpressApple PayDiners ClubDiscoverGoogle PayJCBMastercardPayPalShop PayVisa",
+    "head": {
+      "canonical": "https://flybyjing.com/products/triple-threat-gift-box",
+      "og:url": "https://flybyjing.com/products/triple-threat-gift-box",
+      "og:title": "Triple Threat Gift Box | Fly By Jing",
+      "og:type": "product"
+    },
+    "shopify_title": "Triple Threat Gift Box",
+    "shopify_id": 7521454227514,
+    "available": true
+  }
+]

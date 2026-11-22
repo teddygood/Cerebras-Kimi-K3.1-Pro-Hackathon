@@ -1,0 +1,72 @@
+{
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "cerebras/moonshotai-kimi-k3.1-pro-trial"
+      },
+      "thinkingDefault": "low",
+      "workspace": "./workspace",
+      "skipBootstrap": true,
+      "models": {
+        "cerebras/moonshotai-kimi-k3.1-pro-trial": {
+          "params": {
+            "temperature": 0.7
+          }
+        }
+      }
+    }
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "cerebras": {
+        "baseUrl": "https://api.cerebras.ai/v1",
+        "api": "openai-completions",
+        "apiKey": "${CEREBRAS_API_KEY}",
+        "models": [
+          {
+            "id": "moonshotai-kimi-k3.1-pro-trial",
+            "name": "Kimi K3.1 Pro (Cerebras)",
+            "reasoning": true,
+            "input": ["text", "image"],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "compat": {
+              "supportsTools": true,
+              "supportsStrictMode": false,
+              "supportsReasoningEffort": true,
+              "supportedReasoningEfforts": ["low", "high", "max"]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "skills": {
+    "workshop": {
+      "autonomous": {
+        "mode": "off"
+      }
+    }
+  },
+  "gateway": {
+    "mode": "local",
+    "bind": "loopback",
+    "port": 19889
+  },
+  "tools": {
+    "allow": ["web_fetch"],
+    "toolSearch": false,
+    "codeMode": false,
+    "web": {
+      "fetch": {
+        "maxChars": 6000,
+        "maxCharsCap": 8000
+      }
+    }
+  }
+}
